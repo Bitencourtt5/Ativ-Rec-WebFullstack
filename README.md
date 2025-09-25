@@ -23,4 +23,9 @@ Para rodar o servidor e testar os métodos CRUD  no Postman, é necessário faze
   "titulo": "Prova NI",<br>
   "descricao": "Estudar HTML/CSS"<br>
   No código, fiz uma verificação para não ser possível inserir tarefas com títulos iguais que retorna a mensagem "Já existe uma tarefa com esse título.", caso aconteça.
-  
+- Método GET: <br>
+  Rota -> http://localhost:3000/tarefas<br>
+  Retorna a tabela com todas as tarefas registradas<br>
+  Para fazer a busca de apenas uma única tarefa: <br>
+  Rota -> http://localhost:3000/tarefas/:id<br>
+  Retorna somente a tarefa do ID selecionado
