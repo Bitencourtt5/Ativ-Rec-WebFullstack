@@ -18,7 +18,7 @@ Para rodar o servidor e testar os métodos CRUD  no Postman, é necessário faze
 - No Postman, na aba "body" selecionar a opção RAW e JSON
 ### Rotas disponíveis na API
 - Método POST:<br>
-  Rota -> http://localhost:3000<br>
+  Rota -> http://localhost:3000/tarefas<br>
   Exemplo de inserção de dados:<br>
   "titulo": "Prova NI",<br>
   "descricao": "Estudar HTML/CSS"<br>
