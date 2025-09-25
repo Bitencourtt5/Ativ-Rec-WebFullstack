@@ -35,4 +35,9 @@ Para rodar o servidor e testar os métodos CRUD  no Postman, é necessário faze
   "completo": true -> para tarefa concluída<br>
   "completo": false -> para tarefa não concluída
 - Método DELETE: <br>
+  Rota -> http://localhost:3000/tarefas/:id<br>
+  Fazendo o DELETE nessa rota, apaga a tarefa de ID selecionado na rota.
+
+## Prints do Postman:
+Todos os prints dos métodos estão localizados na pasta "prints", da forma que foi solicitada!
   
