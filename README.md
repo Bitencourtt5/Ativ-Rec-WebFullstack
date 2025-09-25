@@ -29,3 +29,10 @@ Para rodar o servidor e testar os métodos CRUD  no Postman, é necessário faze
   Para fazer a busca de apenas uma única tarefa: <br>
   Rota -> http://localhost:3000/tarefas/:id<br>
   Retorna somente a tarefa do ID selecionado
+- Método PUT:<br>
+  Rota -> http://localhost:3000/tarefas/:id<br>
+  Para o método PUT, criei uma rota para atualizar a situação da tarefa para concluída ou não com o comando:<br>
+  "completo": true -> para tarefa concluída<br>
+  "completo": false -> para tarefa não concluída
+- Método DELETE: <br>
+  
