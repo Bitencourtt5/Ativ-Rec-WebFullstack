@@ -38,6 +38,8 @@ Para rodar o servidor e testar os métodos CRUD  no Postman, é necessário faze
   Rota -> http://localhost:3000/tarefas/:id<br>
   Fazendo o DELETE nessa rota, apaga a tarefa de ID selecionado na rota.
 
+Também deixei os dados createdAt e updatedAt para padronização de tempo.
+
 ## Prints do Postman:
 Todos os prints dos métodos estão localizados na pasta "prints", da forma que foi solicitada!
   
