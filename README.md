@@ -1,7 +1,7 @@
-## Ativ-Rec-WebFullstack
+# Ativ-Rec-WebFullstack
 Projeto feito para a atividade de recuperação da matéria de Des. Web Fullstack a pedido do professor Chico.
 A proposta da atividade é fazer uma to-do list com as exigências do professor. Uma delas é ter um CRUD funcional para manipulação de métodos GET, POST, PUT e DELETE em uma memória interna.
-# Como utilizar o projeto?
+## Como utilizar o projeto?
 Para rodar o servidor e testar os métodos CRUD  no Postman, é necessário fazer a instalação do Node no projeto. Os comando a seguir devem ser feitos no terminal (ctrl+"):
 - Para entrar na pasta "tarefas-api" (criada com mkdir):<br> cd tarefas-api
 - Após acessa a pasta do projeto, rodar:<br>
@@ -16,7 +16,7 @@ Para rodar o servidor e testar os métodos CRUD  no Postman, é necessário faze
 - Para rodar o servidor, inserir no terminal o comando:<br>
   npm run dev<br>
 - No Postman, na aba "body" selecionar a opção RAW e JSON
-#Rotas disponíveis na API
+### Rotas disponíveis na API
 - Método POST:<br>
   Rota -> http://localhost:3000<br>
   Exemplo de inserção de dados:<br>
